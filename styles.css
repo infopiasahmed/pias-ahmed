@@ -235,4 +235,155 @@
     box-shadow: 0px 6px 18px rgba(249, 115, 22, 0.4);
     border-color: #f97316;
   }
-  
+
+
+  .projects-section {
+  background: #0f172a;
+  padding: 80px 20px;
+  color: white;
+}
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+.section-tag {
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #94a3b8;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+.section-title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+
+.projects-section {
+  background-color: #0f172a;
+  padding: 60px 20px;
+  color: white;
+}
+
+.section-subtitle {
+  text-transform: uppercase;
+  color: #94a3b8;
+  font-size: 12px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  background-color: #1e293b;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 30px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.project-card img {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.project-info {
+  flex: 1;
+}
+
+.project-info h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.tags {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.tag {
+  background-color: #334155;
+  color: #e2e8f0;
+  padding: 4px 10px;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+.project-info p {
+  font-size: 15px;
+  color: #cbd5e1;
+  margin-bottom: 20px;
+}
+
+.project-links {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.btn-outline {
+  padding: 8px 16px;
+  border: 1px solid white;
+  border-radius: 25px;
+  background: transparent;
+  color: white;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.btn-outline:hover {
+  background-color: #f97316;
+  color: white;
+  border-color: #f97316;
+}
+
+.live-link {
+  color: #f97316;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.live-link:hover {
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .project-card {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .project-card img {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .project-links {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}

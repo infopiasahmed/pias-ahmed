@@ -55,7 +55,7 @@
     list-style: none;
     gap: 30px;
     flex-shrink: 1;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
   }
   
   .nav-links a {
